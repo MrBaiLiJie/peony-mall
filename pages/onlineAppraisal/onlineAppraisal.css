@@ -1,0 +1,66 @@
+.content{
+    width: 710upx;
+    padding: 20upx;
+	background: #EAEBED;
+}
+.appraisal-from{
+	width: 670upx;
+	background: #FFFFFF;
+	border-radius: 10upx;
+	padding: 20upx;
+	/* box-shadow: #CCCCCC 3px 3px 6px; */
+}
+.baby-list{
+	display: flex;
+	flex-direction: row;
+	height: 80upx;
+	line-height: 80upx;
+	justify-content: center;
+	border-bottom: 1px #CCCCCC solid;
+}
+.baby-label{
+	width: 200upx;
+	font-size: 28upx;
+	color: #131313;
+}
+.baby-input{
+	width: 450upx;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: right;
+}
+.baby-icon{
+	width: 450upx;
+}
+.baby-icon image{
+	width: 50upx;
+	height: 50upx;
+	float: right;
+	margin-top: 15upx;
+}
+.up-img{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.up-img image{
+	width: 200upx;
+	height: 200upx;
+}
+.next-tip{
+	width: 670upx;
+	height: 70upx;
+	margin: 0 auto;
+	margin-top: 20upx;
+	margin-bottom: 10upx;
+	background: var(--common-color);
+	border-radius: 10upx;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
